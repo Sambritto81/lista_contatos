@@ -13,8 +13,8 @@ form.addEventListener('submit' ,function(e) {
     linha += '</tr>';
 
     linhas += linha;
-
     const corpoTabela = document.querySelector('tbody');
-    corpoTabela.innerHTML = linhas;
-
+    corpoTabela.innerHTML = linhas
+    inputNomeCompleto.value = '';
+    inputTelefone.value = '';
     })
